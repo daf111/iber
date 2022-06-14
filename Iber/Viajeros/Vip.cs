@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iber.Viajeros
 {
-    class Vip : Viajero
+    public class Vip : Viajero
     {
         private static float BAJADA_BANDERA = 25;
         private static float VALOR_POR_KILOMETRO = 9;

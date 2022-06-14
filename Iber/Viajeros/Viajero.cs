@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iber.Viajeros
 {
-    abstract class Viajero
+    public abstract class Viajero
     {
         protected string nombre;
         protected string apellido;

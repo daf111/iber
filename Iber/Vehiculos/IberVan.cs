@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iber.Vehiculos
 {
-    class IberVan : Vehiculo
+    public class IberVan : Vehiculo
     {
         private float pesoMaximo;
         private float tamanioEquipaje;

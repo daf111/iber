@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Iber.Conductores
 {
-    class Conductor
+    public class Conductor
     {
         private Vehiculo vehiculo;
 

@@ -21,7 +21,7 @@ namespace Iber
 
             viajero = new Vip("Juan", "Perez", "1157845875");
             viaje.CambiarViajero(viajero);
-            viaje.CalcularCosto();
+            Console.WriteLine(viaje.CalcularCosto());
         }
     }
 }

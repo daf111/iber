@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iber.Vehiculos
 {
-    abstract class Vehiculo
+    public abstract class Vehiculo
     {
         private string patente;
         private string marca;

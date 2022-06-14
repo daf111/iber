@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iber.Viajeros
 {
-    class Comun : Viajero
+    public class Comun : Viajero
     {
         public static float BAJADA_BANDERA = 100;
         public static float VALOR_POR_KILOMETRO = 10;

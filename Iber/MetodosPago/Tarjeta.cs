@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iber.MetodosPago
 {
-    class Tarjeta : MetodoPago
+    public class Tarjeta : MetodoPago
     {
         private static float RECARGO_DESCUENTO = 5;
 
