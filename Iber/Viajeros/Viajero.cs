@@ -14,6 +14,21 @@ namespace Iber.Viajeros
         protected float bajadaBandera;
         protected float valorPorKilometro;
 
+        public Viajero(
+            string nombre,
+            string apellido,
+            string telefono,
+            float bajadaBandera,
+            float valorPorKilometro
+        )
+        {
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.telefono = telefono;
+            this.bajadaBandera = bajadaBandera;
+            this.valorPorKilometro = valorPorKilometro;
+        }
+
         public float CostoBajadaBandera()
         {
             return this.bajadaBandera;
