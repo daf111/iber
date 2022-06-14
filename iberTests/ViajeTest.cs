@@ -27,5 +27,23 @@ namespace iberTests
             //Assert
             Assert.Equal(costoEstimado, costoCalculado);
         }
+
+        [Fact]
+        public void CalcularCosto_ViajeroComun_CalculoCorrecto()
+        {
+            //Arrange
+            float costoEstimado = 1100;
+            Efectivo efectivo = new Efectivo();
+            Viajero viajero = new Comun("Juan", "Perez", "1157845875");
+            Vehiculo vehiculo = new IberX();
+            Conductor conductor = new Conductor(vehiculo);
+            Viaje viaje = new Viaje(100, 2, conductor, efectivo, viajero);
+
+            //Act
+            float costoCalculado = viaje.CalcularCosto();
+
+            //Assert
+            Assert.Equal(costoEstimado, costoCalculado);
+        }
     }
 }
