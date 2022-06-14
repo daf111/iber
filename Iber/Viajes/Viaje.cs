@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Iber.Viajes
 {
-    class Viaje
+    public class Viaje
     {
         private float cantidadKilometros;
         private int numeroPasajeros;

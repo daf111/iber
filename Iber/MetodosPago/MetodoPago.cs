@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iber.MetodosPago
 {
-    abstract class MetodoPago
+    public abstract class MetodoPago
     {
         protected float recargoDescuento;
 

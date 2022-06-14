@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iber.Vehiculos
 {
-    class IberX : Vehiculo
+    public class IberX : Vehiculo
     {
 
     }

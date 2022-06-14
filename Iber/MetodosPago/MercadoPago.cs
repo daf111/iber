@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iber.MetodosPago
 {
-    class MercadoPago : MetodoPago
+    public class MercadoPago : MetodoPago
     {
         private static float RECARGO_DESCUENTO = -10;
 

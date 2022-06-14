@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iber.Vehiculos
 {
-    class IberBlack : Vehiculo
+    public class IberBlack : Vehiculo
     {
         private string materialAsiento;
         private bool tieneWifi;
